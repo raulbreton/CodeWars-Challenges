@@ -1,5 +1,5 @@
 """ 
-In a string find the numbers (if they are)
+In a string find the numbers (if they exist)
 and see if there are any cubic numbers, if there
 are not, return 'Unlucky'. Otherwise return only the
 cubic numbers joined with 'Lucky'
