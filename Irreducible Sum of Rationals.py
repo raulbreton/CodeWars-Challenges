@@ -32,7 +32,7 @@ def sum_fracts(list):
             #summatory += element[0] / element[1]
             summatory += Fraction(element[0], element[1])
 
-        if float(summatory).is_integer(): print (int(summatory))
+        if float(summatory).is_integer(): return int(summatory)
         
         else:
             Tuple = str(summatory).partition('/')
