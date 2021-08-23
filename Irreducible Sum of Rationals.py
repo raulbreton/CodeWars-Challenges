@@ -43,7 +43,7 @@ def sum_fracts(list):
 
 def run():
     list = [ [1, 3], [5, 3] ]
-    sum_fracts(list)
+    print(sum_fracts(list))
 
 if __name__ == "__main__":
     run()
